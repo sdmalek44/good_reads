@@ -17,29 +17,29 @@ When I visit a book index page,
 I see all book titles in the database,
 And each book title is a link to that book's show page.
 ``` -->
-
+<!--
 ```
 As a Visitor,
 When I visit a book show page,
 I see the book title and a list of reviews for that book.
 The review shown should include the text of the review, and user who wrote the review.
-```
+``` -->
 
-```
+<!-- ```
 As a Visitor,
 When I visit a book show page,
 I also see a rating that each user gave the book as part of their review.
 
 (rating will be a number between 1 and 5)
-```
+``` -->
 
-```
+<!-- ```
 As a Visitor,
 When I visit a book show page,
 I see the average rating for that book.
 
 (e.g "Average Rating: 3.5")
-```
+``` -->
 
 ```
 As a Visitor,
