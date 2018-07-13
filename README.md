@@ -11,12 +11,12 @@ everything else you build.
 
 ## User Stories
 
-```
+<!-- ```
 As a Visitor,
 When I visit a book index page,
 I see all book titles in the database,
 And each book title is a link to that book's show page.
-```
+``` -->
 
 ```
 As a Visitor,
