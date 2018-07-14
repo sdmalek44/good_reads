@@ -1,0 +1,24 @@
+<%= @book.title %>
+<% if @reviews %>
+
+  <% @reviews.each do |review| %>
+    <%= review.user.name %>
+    <%= review.rating %>
+    <%= review.body %>
+  <% end %>
+
+  Average Rating: <%= @average_rating if @average_rating %>
+
+  <div id="highest">
+    Highest Rating: <%= @highest_rated_review.rating %>
+    <%= @highest_reviewer.name %>
+    <%= @highest_rated_review.body %>
+  </div>
+
+  <div id="lowest">
+    Lowest Rating: <%= @lowest_rated_review.rating %>
+    <%= @lowest_reviewer.name %>
+    <%= @lowest_rated_review.body %>
+  </div>
+
+<% end %>
